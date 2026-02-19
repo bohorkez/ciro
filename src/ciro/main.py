@@ -301,7 +301,7 @@ def show_detail(conf_file):
 if __name__ == "__main__":
     # Ejemplo de menú o argumentos
     import argparse
-    parser = argparse.ArgumentParser(description="Hammurabi configs analysis tool.")
+    parser = argparse.ArgumentParser(description="Hammurabi confs analysis tool.")
     parser.add_argument("--comp",action="store_true", help="Get the differences between two configuration files.")
     parser.add_argument("--tables",action="store_true", help="Get the tables in a configuration file.")
     parser.add_argument("--vars",action="store_true", help="Get the variables in a configuration file.")
